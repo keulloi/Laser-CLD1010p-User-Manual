@@ -105,10 +105,10 @@ project/
 
 # Hardware Set up and Running the Program
 
-## 1. Open the Laser Power, and switch the key to unlock
-## 2. Connect Laser and AD2 to your computer
-## 3. Connect Laser and AD2(black wire to ground; red wire to W1)
-## 4. Open Command Prompt inside the project folder:
+1. Open the Laser Power, and switch the key to unlock
+2. Connect Laser and AD2 to your computer
+3. Connect Laser and AD2(black wire to ground; red wire to W1)
+4. Open Command Prompt inside the project folder:
 ```bash
 python cld1010lp_gui_windows.py
 ```
