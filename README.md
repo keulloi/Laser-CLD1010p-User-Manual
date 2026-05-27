@@ -103,10 +103,12 @@ project/
 
 ---
 
-# Running the Program
+# Hardware Set up and Running the Program
 
-Open Command Prompt inside the project folder:
-
+## 1. Open the Laser Power, and switch the key to unlock
+## 2. Connect Laser and AD2 to your computer
+## 3. Connect Laser and AD2(black wire to ground; red wire to W1)
+## 4. Open Command Prompt inside the project folder:
 ```bash
 python cld1010lp_gui_windows.py
 ```
@@ -123,10 +125,9 @@ USB0::0x1313::0x804F::XXXXXXXX::INSTR
 
 Steps:
 
-1. Connect CLD1010LP via USB
-2. Open the GUI
-3. Click `Connect`
-4. Verify IDN response appears
+1. Click `Connect` and `Connect AD2`
+2. Verify IDN response appears
+
 
 ---
 
