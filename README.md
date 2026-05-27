@@ -108,7 +108,7 @@ project/
 Open Command Prompt inside the project folder:
 
 ```bash
-python cld1010lp_gui.py
+python cld1010lp_gui_windows.py
 ```
 
 ---
