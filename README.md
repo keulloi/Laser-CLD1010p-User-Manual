@@ -135,9 +135,9 @@ Steps:
 
 
 ---
-<img width="1470" height="956" alt="image" src="https://github.com/user-attachments/assets/e6a8d3ba-532e-4099-a344-3ee2b8770dfb" />
 
 # GUI Functions
+<img width="1470" height="956" alt="image" src="https://github.com/user-attachments/assets/22725bf2-cc38-4293-bcb3-e49108cc1962" />
 
 # TEC Section
 
