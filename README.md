@@ -5,6 +5,10 @@ Python GUI for controlling the Thorlabs CLD1010LP laser controller and AD2 wavef
 
 ---
 
+
+https://github.com/user-attachments/assets/a62e0d1b-bb71-436c-a899-40fd2bc284b3
+
+
 # Features
 
 This program provides a simple GUI for:
