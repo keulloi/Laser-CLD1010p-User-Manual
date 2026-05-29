@@ -1,5 +1,6 @@
-# Laser-CLD1010p-User-Manual
 # CLD1010LP Control GUI
+
+User Manual and Software Documentation
 
 Python GUI for controlling the Thorlabs CLD1010LP laser controller and AD2 waveform modulation.
 
@@ -134,6 +135,7 @@ Steps:
 
 
 ---
+<img width="1470" height="956" alt="image" src="https://github.com/user-attachments/assets/e6a8d3ba-532e-4099-a344-3ee2b8770dfb" />
 
 # GUI Functions
 
@@ -313,10 +315,12 @@ This procedure resolves most communication, VISA, and controller-state errors.
 # Notes
 
 - Always set a safe current limit before enabling LD output.
-- Ensure TEC is opened before open LD
+- Ensure TEC is opened before opening LD
 - Ensure TEC is stable before high-current operation.
 - AD2 modulation may override manual current control depending on wiring configuration.
 - Do not exceed the safe current range of your laser diode.
+- Always turn LD off when you finish one sequence.
+- Close the Laser and lock the key after finishing.
 
 ---
 
@@ -329,6 +333,4 @@ This procedure resolves most communication, VISA, and controller-state errors.
 
 ---
 
-# License
 
-MIT License
