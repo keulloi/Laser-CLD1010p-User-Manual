@@ -190,7 +190,121 @@ Functions:
 
 ---
 
+## Error Recovery Procedure
 
+If an error message appears in the Status/Error panel at the bottom of the GUI:
+
+### Step 1 — Disable Laser Output
+
+Click:
+
+```text
+LD OFF
+```
+
+---
+
+### Step 2 — Disable TEC
+
+Click:
+
+```text
+TEC OFF
+```
+
+---
+
+### Step 3 — Clear Error Queue
+
+Click:
+
+```text
+Clear Error Queue
+```
+
+This sends:
+
+```text
+*CLS
+```
+
+to clear the CLD1010LP error buffer.
+
+---
+
+### Step 4 — Refresh Status
+
+Click:
+
+```text
+Refresh
+```
+
+Check whether the error message disappears.
+
+---
+
+### Step 5 — Restart the Laser Controller
+
+If the error remains:
+
+1. Turn OFF LD
+2. Turn OFF TEC
+3. Disconnect USB from CLD1010LP
+4. Wait 5–10 seconds
+5. Reconnect USB
+6. Launch the GUI again
+7. Click Connect
+
+---
+
+### Step 6 — Verify Communication
+
+After reconnecting:
+
+```text
+IDN field should display:
+Thorlabs,CLD1010LP,...
+```
+
+and
+
+```text
+Last Error:
+0, No error
+```
+
+---
+
+### Step 7 — Full Software Restart
+
+If communication still fails:
+
+1. Close the GUI
+2. Power cycle the CLD1010LP
+3. Restart the computer
+4. Reconnect the controller
+5. Launch the GUI again
+
+---
+
+### Recommended Recovery Order
+
+```text
+LD OFF
+↓
+TEC OFF
+↓
+Clear Error Queue
+↓
+Refresh
+↓
+Reconnect CLD1010LP
+↓
+Restart GUI
+```
+
+This procedure resolves most communication, VISA, and controller-state errors.
 
 # Notes
 
